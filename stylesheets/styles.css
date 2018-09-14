@@ -1,9 +1,11 @@
 body {
     background-color: powderblue;
+    position: relative;
+    min-height: 98.3vh;
 }
 h1 {
     color:MediumSeaGreen;
-    font-size:60px;
+    font-size:5.3vh;
     margin: 0px;
     padding:0px;
   }
@@ -11,10 +13,10 @@ h1 {
   text-align: center;  
 }
 #bottom{
-    position: fixed;
-    left: 5px;
+    position: absolute;
+    left: 0px;
     bottom: 0px;
-    right: 5px; 
+    right: 0px; 
 }
 #bottom p {
     color: green;
@@ -86,7 +88,7 @@ div.right_top {
     display: block;
     text-align: center;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 3vh;
     margin: 0;
     padding: 16px;
 }
@@ -95,7 +97,7 @@ li a {
     text-align: center;
     padding: 16px;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 3vh;
 }
 
 li a:hover {
@@ -108,16 +110,17 @@ li a:hover {
     width:20%;
     height:100%;
     text-align:center;
-    margin: 5px 0;
+    margin: 0px;
     overflow: auto;
 }
  .menu a{
      display:block;
      background-color: #333333;     
      color:MediumSeaGreen;
-     font-size:30px;
-     margin: 5px;
-     padding:20px;
+     font-size:3vh;
+     margin: 0.5vh;
+     margin-left: 0;
+     padding:2vh;
  }
 
 .menu a:hover {
