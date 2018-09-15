@@ -76,7 +76,11 @@ div.right_top {
     overflow: hidden;
 }
 
-
+#mango_im{
+    padding-bottom:8px;
+    padding-right:5px;
+    padding-top:15px;
+}
 .top_menu ul{
     list-style-type:none;
     margin: 0;
@@ -103,6 +107,19 @@ li a {
     padding: 16px 7px;
     text-decoration: none;
     font-size: 1.2em;
+}
+
+#button_start{
+    display: block;
+    text-align: center;
+    padding: 16px 7px;
+    font-size: 1.2em;
+    background: #333333;
+    margin-left: 80px;
+    margin-right: 80px;
+    color: MediumSeaGreen;
+    border-radius:10px; 
+    box-shadow: 0px 7px 7px rgba(0,0,0,.2);
 }
 
 li a:hover {
@@ -166,15 +183,26 @@ li a:hover {
 .article p{
     color: #005900;
     overflow: hidden;
+    /* border: 2px solid grey;*/
+
+     font-size:1,5vh;     
+     margin:5px;
+     padding:5px;
+}
+#user_bio{
+    margin:30px;
+    padding:20px;
+}
+.article h3{
+    color: #005900;
+    overflow: hidden;
     /* border: 2px solid grey;
      margin:30px;
-     padding:20px;*/
-     font-size:1,5vh;     
-     margin:30px;
+     padding:20px;*/     
+     margin:10px;
      margin-bottom: 0;
      padding:20px;
 }
-
 .article a{
     display: initial;
     list-style-type: none;
@@ -275,6 +303,30 @@ img{
 
 #table_users tr:nth-child(2n){
     background: #f5f5f5;
+}
+
+.test{
+    float: center;
+    overflow: hidden;
+    width: auto;
+    min-height: 67vh;
+    background: #EBFCFF;
+    border-radius:10px;      
+    box-shadow: 0px 0px 10px rgba(0,0,0,.2);
+    text-align: center;
+    margin: 50px 100px;
+}
+
+.about{
+    float: center;
+    overflow: hidden;
+    width: auto;
+    min-height: 20vh;
+    background: #EBFCFF;
+    border-radius:10px;      
+    box-shadow: 0px 0px 10px rgba(0,0,0,.2);
+    text-align: center;
+    margin: 50px 100px;
 }
 /*
 For changing different sizes of picture on the screen
