@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
   <meta charset = "UTF-8">
-  
+
   <meta name="description" content="Free Web tests">
   <meta name="keywords" content="HTML,CSS,XML,JavaScript">
   <meta name="author" content="Artem Trush">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="stylesheets/styles.css">
-
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400|Open+Sans" rel="stylesheet"> 
   <title>MANGO users</title>
 
 </head>
@@ -48,12 +48,30 @@
     </div>
         
     <div class = "article">
-        <p>This is my second web-page! Press one of the users to<br/> visit their webpages </p>
+        <h1 id = "header_in_users">Press one of the users to visit their webpages </h1>
         <br/>
-        <ul> 
-            <li> <a href = "user1.html">User1</a></li>
-            <li> <a href = "user2.html">User2</a></li>  
-        </ul>
+
+          <table align = "center" id = "table_users">
+            
+            <tr>
+              <th>Login</th>
+              <th>Full name</th>
+              <th>Registered</th>
+            </tr>
+            
+            <tr>
+                <td><a href = "user1.html">User1</a></td>
+                <td>Artem Trush</td>
+                <td><time>2018/09/12 13:30:32</time></td>
+            </tr>
+            
+            <tr>
+                <td><a href = "user2.html">User2</a></td>
+                <td>Ivan Petrovich</td>
+                <td><time>2018/09/13 22:42:26</time></td>
+            </tr>
+          </table>
+
     </div>
 
     <div style="clear:both;"></div>
